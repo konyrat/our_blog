@@ -25,7 +25,7 @@ SECRET_KEY = 'j@q+nxc9$t(6r_7hl8+9t&o_5zp1kt1zzpiaz&t_&sj*@lsin6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1","konyrat@pythonanywhere.com"]
+ALLOWED_HOSTS = ["127.0.0.1","konyrat.pythonanywhere.com"]
 
 
 # Application definition
@@ -67,6 +67,7 @@ TEMPLATES = [
         },
     },
 ]
+
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,"static"),
     '/var/www/static',
