@@ -1,0 +1,257 @@
+{% load static%}
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style1-1.css'%}">
+   
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg fixed-top">  
+ <a class="navbar-brand" href="#"><img src="{% static 'images/Tilda_Icons_13ph_wedding.svg'%}" width="30" height="30">Главная</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+ <li class="nav-item">
+     <a class="nav-link" data-value="about" href="index3"><img src="{% static 'images/Tilda_Icons_13ph_images.svg'%}" width="30" height="30">Портфолио</a>        </li>  
+<li class="nav-item">
+    <a class="nav-link " data-value="portfolio"href="index2"><img src="{% static 'images/Tilda_Icons_13ph_tune.svg'%}" width="30" height="30">Пакеты</a>    
+ </li>
+ <li class="nav-item"> 
+    <a class="nav-link " data-value="blog" href="index5"><img src="{% static 'images/Tilda_Icons_13ph_mirror.svg'%}" width="30" height="30">Отзывы</a>         </li>   
+ 
+<li class="nav-item"> 
+ <a class="nav-link " data-value="contact" href="index4"><img src="{% static 'images/Tilda_Icons_13ph_phone.svg'%}" width="30" height="30">Контакты</a>       </li> 
+</ul> 
+<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+    </form>
+</div></nav>
+
+<hr class="my-4">
+
+<h1 class="entry-title">....Счастье нельзя поймать или удержать, оно скоротечно, возможно счастье это всего лишь миг... Миг, который можно запечатлеть с помощью фото (C)</h1>
+
+<hr class="my-4">
+
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="4000">
+      <img src="{% static 'images/DSC_0579.JPG'%}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="{% static 'images/DSC_0724.JPG'%}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">> 
+      <img src="{% static 'images/DSC_0345.JPG'%}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">>
+      <img src="{% static 'images/33.jpg'%}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<p class="citates"><img src="{% static 'images/graduate-cap.svg'%}" width="60" height="60"><strong> Кроме того, об указанном также свидетельствует множество изречений великих деятелей, так или иначе причастных к искусству, например, как:</strong> </p>
+  <br/>
+
+ <div class="card">
+  <div class="card-header">
+    Цитаты:
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>«Что мне нравится в фотографии, так это то, что в ней пойман момент, который ушел навсегда, который невозможно воспроизвести»</p>
+      <footer class="blockquote-footer">Карл Лергфельд.<cite title="Source Title"></cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="card">
+  
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>"Повезло и тебе: где еще, кроме разве что фотографии,
+ты пребудешь всегда без морщин, молода, весела, глумлива?
+Ибо время, столкнувшись с памятью, узнает о своем бесправии"</p>
+      <footer class="blockquote-footer">Иосиф Александрович Бродский.<cite title="Source Title"></cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>«Фотография – это искусство застывшего времени... возможность хранить эмоции и чувства внутри кадра»</p>
+      <footer class="blockquote-footer">Мешак Отиено.<cite title="Source Title"></cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+  <div class="card">
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>«Фотография – это единственный язык, который может быть понятен в любой точке мира»</p>
+      <footer class="blockquote-footer">Бруно Барбе.<cite title="Source Title"></cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+
+<div class="card text-center">
+  <div class="card-header">
+    Примечание:
+  </div>
+  <div class="card-body">
+    
+    <p class="card-text"><strong>Буду рада помочь Вам подтвердить все вышеупомянутое на личном примере, оставив на долгую, счастливую память, греющие душу фотокарточки. Так пойдемте же скорее,  будем рисовать, играть, быть, творить...<strong></strong></p>
+      </div>
+  
+</div>
+
+    <div class="col">
+       <strong></strong></div>
+
+<h3 class="text-heading" style="text-align: center; margin-top:30px;">Профессиональный фотограф</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+История искусств, и фотографии в частности, учит тому, что главным предметом изучения всегда была и будет жизнь во всех ее проявлениях. Жизнь каждого человека – отдельная неповторимая история, состоящая из бесчисленного множества эпизодов. <strong>Профессиональный фотограф</strong> должен это прекрасно понимать и иметь богатый внутренний мир, чтобы уметь поймать или воспроизвести ситуации, представляющие ценность в художественном плане, показать героя с выгодных сторон, передать его душевное состояние, переживания, эмоции. Помимо психологической составляющей есть техническая сторона профессиональной фотосъемки. Мало того, что профессиональный фотограф должен стараться вкладывать смысл в каждую свою работу, он еще должен хорошо уметь управлять инструментами, которыми располагает. В первую очередь, это свет, помогающий придать кадрам нужное настроение. Профессиональная фотосъемка в студии предоставляет фотографу множество возможностей.</div>
+<div class="col">
+Vедь процесс фотосессии находится под полным контролем. Наличие нескольких приборов, а также светоформирующих насадок в руках профессионального фотографа – те самые средства, позволяющие продемонстрировать «магию» фотографии. Разумеется, заказать фотосессию у настоящего мастера мечтают многие. Однако, услуги фотографа не ограничиваются только студийной работой. Профессиональная фотосъемка на выезде (натуре, локации, пленере – существуют разные названия) &#8212; обычное явление. Правда, подобная съемка требует от фотографа специальных знаний, навыков, особой концентрации. Так как приходится оперативно ориентироваться в постоянно меняющейся обстановке. При этом место, идея, концепция оговариваются со всеми членами съемочной команды заранее. Но заказать фотосессию на выезде от этого не становится сложнее. Лишь немного меняется порядок подготовки. Пожелания модели, конечно же, берутся во внимание, обсуждаются, учитываются.</div></div></div>
+
+<h3 class="text-heading" style="text-align: center; margin-top:30px;">Услуги фотографа</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+Сейчас сложно себе представить серьезного профессионального фотографа, создающего свои шедевры единолично. Зачастую производство красивых качественных фотографий требует участия специалистов разной направленности. Чтобы воплотить выигрышный образ, нередко создается соответствующий макияж, продумывается прическа, несколько вариантов одежды. </div>
+
+<div class="col">Услуги фотографа – ключевая, но не единственная составляющая профессиональной фотосъемки. Визажист, парикмахер, стилист, дизайнер – лишь небольшая часть всего перечня профессионалов, работающих на общий результат. Существуют специальные виды фотосъемки. Например: съемка еды. Она требует участия фуд-стилиста, т.п.</div></div></div>
+
+
+
+
+
+<div style="max-width:550px; margin:auto;">
+<h3 align="center" style="margin-top:30px; font-size:16pt;"><strong>О ФОТОГРАФЕ</strong></h3>
+<p align="center" style="font-size:12pt;"><em>Биография и ознакомительные сведения.<br />
+Лента записей в социальных сетях.</em></p>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+<div align="center" style="margin-top:1.25em">
+<p style="font-size: 40pt; margin-bottom:-15px; margin-top:-15px;"><strong>11</strong></p>
+<p style="font-size:16pt; margin-bottom:0px;"><em>рекламных кампаний</em></p>
+</div>
+</div>
+
+<div class="col">
+<div align="center" style="margin-top:1.25em">
+<p style="font-size: 40pt; margin-bottom:-15px; margin-top:-15px;"><strong>7</strong></p>
+<p style="font-size:16pt; margin-bottom:0px;"><em>проектов за рубежом</em></p>
+</div>
+</div>
+
+<div class="col">
+<div align="center" style="margin-top:1.25em">
+<p style="font-size: 40pt; margin-bottom:-15px; margin-top:-15px;"><strong>100+</strong></p>
+<p style="font-size:16pt; margin-bottom:0px;"><em>коммерческих съемок</em></p>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+<div class="col">
+<div align="center" style="margin-top:1.25em">
+<p style="font-size: 40pt; margin-bottom:-15px; margin-top:-15px;"><strong>25+</strong></p>
+<p style="font-size:16pt; margin-bottom:0px;"><em>съемок со знаменитостями</em></p>
+</div>
+</div>
+
+<div class="col">
+<div align="center" style="margin-top:1.25em">
+<p style="font-size: 40pt; margin-bottom:-15px; margin-top:-15px;"><strong>29</strong></p>
+<p style="font-size:16pt; margin-bottom:0px;"><em>публикаций в журналах</em></p>
+</div>
+</div>
+
+<div class="col">
+<div align="center" style="margin-top:1.25em">
+<p style="font-size: 40pt; margin-bottom:-15px; margin-top:-15px;"><strong>5</strong></p>
+<p style="font-size:16pt; margin-bottom:0px;"><em>побед в конкурсах</em></p>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+
+  <table>
+  
+    <tr>
+      <th scope="col">Контакты</th>
+      <th scope="col" >Социальные сети</th>
+      
+    </tr>
+ 
+<br>
+
+    <tr bordercolor="black">
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_location.svg'%}" width="50" height="50">Адрес: город Алматы, улица Алматинская</th>
+      <td align="center"><a href="https://www.instagram.com/" target="_blank"><img src="{% static 'images/Instagram_icon.png'%}" width="50" height="50" ></a></td>
+      
+      
+    </tr>
+
+    <tr>
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_mail.svg'%}" width="50" height="50">Почта:<a href="mailto:konyrat89@gmail.com" title="konyrat89@gmail.com">konyrat89@gmail.com</a></th>
+      <td align="center"><a href="https://www.whatsapp.com/" target="_blank"><img src="{% static 'images/wpp.png'%}" width="50" height="50"></a></td>
+      
+      
+    </tr>
+    <tr>
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_phone.svg'%}" width="50" height="50">Моб.:+7(707)124-61-61</th>
+      <td align="center"><a href="https://www.pinterest.com/" target="_blank"><img src="{% static 'images/pinterest.png'%}" width="50" height="50"></a></td>
+      
+     
+    </tr>
+        <tr>
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_roundtheclock.svg'%}" width="50" height="50">График работы:без выходных с 09:00 до 20:00</a></th>
+      <td align="center"><a href="https://www.facebook.com/" target="_blank"><img src="{% static 'images/facebook-png-icon-follow-us-facebook-1.png'%}" width="50" height="50"></a></td>
+      
+      
+    </tr>
+</table>
+     
+   
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style3.css'%}">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">  
+ <a class="navbar-brand" href="index1-1"><img src="{% static 'images/Tilda_Icons_13ph_wedding.svg'%}" width="30" height="30">Главная</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+ <li class="nav-item">
+     <a class="nav-link" data-value="about" href="#"><img src="{% static 'images/Tilda_Icons_13ph_images.svg'%}" width="30" height="30">Портфолио</a>        </li>  
+<li class="nav-item">
+    <a class="nav-link " data-value="portfolio"href="index2"><img src="{% static 'images/Tilda_Icons_13ph_tune.svg'%}" width="30" height="30">Пакеты</a>    
+ </li>
+ <li class="nav-item"> 
+    <a class="nav-link " data-value="blog" href="index5"><img src="{% static 'images/Tilda_Icons_13ph_mirror.svg'%}" width="30" height="30">Отзывы</a>         </li>   
+ 
+<li class="nav-item"> 
+ <a class="nav-link " data-value="contact" href="index4"><img src="{% static 'images/Tilda_Icons_13ph_phone.svg'%}" width="30" height="30">Контакты</a>       </li> 
+</ul> 
+<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+    </form>
+</div></nav>
+
+<hr class="my-4">
+
+<h2 id="title" align="center">Портфолио</h2>
+                      <p>Фотография &#8212; это не только яркие сочные картинки полученные на современные цифровые камеры и изрядно доработанные фотошопом.   Чтобы стать хорошим фотографом, мало владеть камерой и уметь обрабатывать снимки. Нужно быть художником.</p>
+<p>Поэтому начиная с этой статьи, на Lightroom.ru, в разделе вдохновение, мы будем публиковать цикл материалов о фотографах, чей вклад в историю фотографии был особенно заметен, а так же  о тех фотографах, чьи работы можно смело отнести к <strong>художественной фотографии</strong>, а не просто красивым картинкам.</p>
+<p>Начнем с<strong> Ансела Адамса</strong>.</p>
+<p>Кроме того, он вложил огромный вклад в развитие фотографии, так как совместно с Фредом Арчером еще в 1939—1940 годах прошлого века сформулировал так называемую зонную теорию,  на основе которой фотографы последующих поколений получили отличный инструмент для определения оптимальной </p>
+<p>Многие работы Ансела Адамса служат наглядным пособием по основным правилам композиции, помогающей понять взаимосвязь между объектами в кадре и вызывающие определенные эмоции.</p>
+
+<p>Но  кроме того, Ансел Адамс считал, что техническое совершенство и мастерство фотографа, не могут сравниться с художественным взглядом, со способностью фотографа выразить свое мироощущение посредством фотографии.</p>
+<p>В заглавии статьи можно увидеть один из самых известных снимков Ансела Адамса &#8212; &#171;Хребет Титон и река Снейк&#187;.  Об ее значимости для истории говорит хотя бы тот факт, что эта фотография вошла в число 116 работ, выбранных для занесения на золотую пластинку космического корабля «Вояжер»,  который был запущен в космос,  чтоб передать другим цивилизациям информацию о природе и геологии Земли.</p>
+<p>С фотографиями Ансела Адамса связано множество любопытных историй, когда отдельные фотографы и целы группы, пробовали в точности повторить его работы, детально выясняя место откуда был сделан снимок, время и поджидая аналогичные погодные условия.  Правда &#8212; никому еще не удалось этого сделать.</p>
+
+
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <<img src="{% static 'images/DSC_0051.JPG'%}" alt="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/DSC_0600.JPG'%}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/DSC_0656.JPG'%}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/DSC_0769.JPG'%}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<hr class="my-3">
+
+
+
+  
+
+    <div class="card bg-dark text-white">
+  <img src="{% static 'images/DSC_0765.jpg'%}" alt="logo" width="1300" height="500" class="lazied">
+  <div class="card-img-overlay">
+
+    <table>
+  
+    <tr>
+      <th scope="col">Контакты</th>
+      <th scope="col" >Социальные сети</th>
+      
+    </tr>
+ 
+<br>
+
+    <tr bordercolor="black">
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_location.svg'%}" width="50" height="50">Адрес: город Алматы, улица Алматинская</th>
+      <td align="center"><a href="https://www.instagram.com/" target="_blank"><img src="{% static 'images/Instagram_icon.png'%}" width="50" height="50" ></a></td>
+      
+      
+    </tr>
+
+    <tr>
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_mail.svg'%}" width="50" height="50">Почта:<a href="mailto:konyrat89@gmail.com" title="konyrat89@gmail.com">konyrat89@gmail.com</a></th>
+      <td align="center"><a href="https://www.whatsapp.com/" target="_blank"><img src="{% static 'images/wpp.png'%}" width="50" height="50"></a></td>
+      
+      
+    </tr>
+    <tr>
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_phone.svg'%}" width="50" height="50">Моб.:+7(707)124-61-61</th>
+      <td align="center"><a href="https://www.pinterest.com/" target="_blank"><img src="{% static 'images/pinterest.png'%}" width="50" height="50"></a></td>
+      
+     
+    </tr>
+        <tr>
+      <th scope="row"><img src="{% static 'images/Tilda_Icons_13ph_roundtheclock.svg'%}" width="50" height="50">График работы:без выходных с 09:00 до 20:00</a></th>
+      <td align="center"><a href="https://www.facebook.com/" target="_blank"><img src="{% static 'images/facebook-png-icon-follow-us-facebook-1.png'%}" width="50" height="50"></a></td>
+      
+      
+    </tr>
+</table>
+</div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

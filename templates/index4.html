@@ -1,0 +1,123 @@
+{% load static%}
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style4.css'%}">
+
+  </head>
+  <body>
+
+  	
+<nav class="navbar navbar-expand-lg fixed-top">  
+ <a class="navbar-brand" href="#"><img src="{% static 'images/Tilda_Icons_13ph_wedding.svg'%}" width="30" height="30">Главная</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+ <li class="nav-item">
+     <a class="nav-link" data-value="about" href="index3"><img src="{% static 'images/Tilda_Icons_13ph_images.svg'%}" width="30" height="30">Портфолио</a>        </li>  
+<li class="nav-item">
+    <a class="nav-link " data-value="portfolio"href="index2"><img src="{% static 'images/Tilda_Icons_13ph_tune.svg'%}" width="30" height="30">Пакеты</a>    
+ </li>
+ <li class="nav-item"> 
+    <a class="nav-link " data-value="blog" href="index5"><img src="{% static 'images/Tilda_Icons_13ph_mirror.svg'%}" width="30" height="30">Отзывы</a>         </li>   
+ 
+<li class="nav-item"> 
+ <a class="nav-link " data-value="contact" href="#"><img src="{% static 'images/Tilda_Icons_13ph_phone.svg'%}" width="30" height="30">Контакты</a>       </li> 
+</ul> 
+<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+    </form>
+</div></nav>
+
+
+<hr class="my-4">
+
+
+  <!-- script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A843f1e0fece5a1acdce91cd1dbaa63cc2104692144e6c357dcdb5f3d954f4f89&amp;width=951&amp;height=550&amp;lang=ru_RU&amp;scroll=true"></script> -->
+
+   <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A843f1e0fece5a1acdce91cd1dbaa63cc2104692144e6c357dcdb5f3d954f4f89&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+<h3><strong>КОНТАКТЫ</strong></h3>
+<p ><strong>По вопросам съемок</strong><br />
+konyrat89@gmail.com<br />
+Тел.: +7(707)124-61-61<br />
+WhatsApp, Viber, Telegram</p>
+<p ><strong>Связи с общественностью</strong><br />
+pr@alexandersakulin.com<br />
+<strong>Деловые предложения</strong><br />
+biz@alexandersakulin.com</p>
+
+</div>
+<div class="col-sm">
+<h3><strong>ОФИС</strong></h3>
+<p><strong>Бизнес центр &#171;Смартпоинт&#187;</strong><br/>
+офис №4135 (2 этаж)</p><br/>
+<h4 style="margin-top:10px;"><strong>Социальные сети</strong></h4>
+
+<p><a href="{% static 'images/Instagram_icon.png'%}" width="50" height="50" rel="nofollow" target="_blank">
+<p style="margin-top: 20px;" align="left"><img style="margin-right:10px" src="{% static 'images/Instagram_icon.png'%}" width="50" height="50"/><noscript>
+  <img style="margin-right:10px" src="{% static 'images/Instagram_icon.png'%}" alt="facebook" title="facebook" width="50" height="50"/>
+
+</noscript></a><a href="{% static 'images/pinterest.png'%}" width="50" height="50" rel="nofollow" target="_blank"><img style="margin-right:10px" src="{% static 'images/pinterest.png'%}" alt="twitter" title="twitter" width="50" height="50"/>
+
+  <noscript><img style="margin-right:10px" src="{% static 'images/facebook-png-icon-follow-us-facebook-1.png'%}" width="50" height="50" alt="twitter" title="twitter" width="50" height="50"/></noscript></a><a href="{% static 'images/facebook-png-icon-follow-us-facebook-1.png'%}" width="50" height="50" rel="nofollow" target="_blank"><img style="margin-right:10px"  
+    src="{% static 'images/facebook-png-icon-follow-us-facebook-1.png'%}" data-lazy-src="{% static 'images/facebook-png-icon-follow-us-facebook-1.png'%}" alt="behance" title="behance" width="50" height="50"/><noscript><img style="margin-right:10px"  src="{% static 'images/wpp.png'%}" alt="behance" title="behance" width="50" height="50"/></noscript></a><a href="{% static 'images/wpp.png'%}" rel="nofollow" target="_blank"><img src="{% static 'images/wpp.png'%}" data-lazy-src="{% static 'images/wpp.png'%}" alt="instagram" title="instagram" width="50" height="50"/><noscript><img src="images/wpp.png'%}" alt="instagram" title="instagram" width="50" height="50"/></noscript></a></p>
+</div>
+
+
+<div class="col-sm">
+<h4 class="post-heading"><strong>Ваша заявка</strong></h4>
+    <form>
+    <div class="form-group">
+    <label for="exampleInputEmail1">Ваше имя</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите ваше имя">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Адрес электронной почты</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите адрес вашей почты здесь"> <small id="emailHelp" class="form-text text-muted"></small>
+     </div>
+    
+  <div class="form-group">
+    <label for="exampleInputEmail1">Телефон</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите номер телефона"> <small id="emailHelp" class="form-text text-muted"></small>
+     </div>
+
+
+   
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Коментарий</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
