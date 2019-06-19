@@ -1,0 +1,20 @@
+body{
+	background-color: #f2f2f2;
+}
+
+
+.navbar{ background:  #0047b3;}
+.nav-link, .navbar-brand{ color: #ffffff; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #ffffff; color:   #000000; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background: #4dff4d !important;}
+
+p{
+	font-family:Tinos;
+}
+
+.form-group{
+font-family: Raleway;
+}
+

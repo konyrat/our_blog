@@ -1,0 +1,61 @@
+body{
+	background-color: #f2f2f2;
+}
+
+
+.navbar{ background:  #0047b3;}
+.nav-link, .navbar-brand{ color: #ffffff; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #ffffff; color:   #000000; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background: #4dff4d !important;}
+
+.btn btn-primary{
+	text-orientation: center;
+}
+#title{
+	font-family: verdana;
+	font-style:italic;
+}
+
+.card-title {
+  color: black;
+  font-family: verdana;
+}
+
+th{
+text-align:left;
+	font-family:Istok Web,Sans-Serif;
+	font-size: 16pt;
+}
+
+.card{
+	text-align: justify;
+	font-family:Istok Web,Sans-Serif;
+	font-size: 12pt;
+}
+.card-text{
+	text-align: center;
+	font-family:Playfair Display,cursive;
+	font-size: 12pt;
+}
+.card card-body{
+	text-align: center;
+	font-family:Brush Script MT, cursive;
+	font-size: 12pt;
+	
+}
+h5{
+	color: black;
+}
+
+p{
+	color: grey;
+}
+
+.btn btn-primary{
+	align-content: :center;
+}
+
+
+

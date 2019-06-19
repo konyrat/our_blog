@@ -1,0 +1,25 @@
+body{
+	background-color: white;
+}
+
+
+.navbar{ background:  #0047b3;}
+.nav-link, .navbar-brand{ color: #ffffff; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #ffffff; color:   #000000; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background: #4dff4d !important;}
+
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    /*border: 3px solid green;*/ /* Параметры рамки */
+    box-shadow: 0 0 0 3px black, 0 0 13px #333;
+    margin: 0,0,20;
+}
+
+
+
+
+
+

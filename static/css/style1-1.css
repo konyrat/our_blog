@@ -1,0 +1,59 @@
+ body {
+background-color: #f2f2f2;
+/*url(images/DSC_0764.JPG) no-repeat;*/
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
+}
+
+.navbar{ background:  #0047b3;}
+.nav-link, .navbar-brand{ color: #ffffff; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #ffffff; color:   #000000; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background: #4dff4d !important;}
+
+.entry-title{
+text-align: center; 
+font-family:Brush Script MT, cursive;
+  text-shadow: 1px 1px 1px silver,
+               -1px 1px 1px silver;
+  color: black;
+  transition: all .5s;
+  }
+ .entry-title {
+    text-shadow: -1px -1px 1px silver,
+                 1px -1px 1px silver;
+    color: black;
+    }
+
+.citates{
+	text-align:justify;
+	font-family:Playfair Display,cursive;
+	font-size: 16pt;
+}
+.card-text{
+text-align:center;
+	font-family:Brush Script MT, cursive;
+	font-size: 16pt;
+
+}
+
+
+.col{
+	text-align: justify;
+	font-family:Istok Web,Sans-Serif;
+	font-size: 12pt;
+}
+
+th{
+text-align:left;
+	font-family:Istok Web,Sans-Serif;
+	font-size: 16pt;
+}
+
